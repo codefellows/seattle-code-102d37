@@ -1,0 +1,52 @@
+header {
+  background: #888;
+  height: 100px;
+}
+
+h1 {
+  float: left;
+  margin-left: 20px;
+  margin-right: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px red;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+nav li a {
+  color: white;
+  font-size: 20px;
+}
+
+nav li a:hover {
+  color: #444;
+}
+
+main {
+  width: 960px;
+  min-height: 700px;
+  margin: 30px auto;
+}
+
+#hero {
+  width: 100%;
+}
+
+main li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+main li:last-child {
+  margin-right: 0;
+}
+
+footer {
+  height: 100px;
+  background: #444;
+}
