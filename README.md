@@ -10,7 +10,8 @@ In this course you will build a strong software development foundation and learn
 
 ### Instructional Staff
 
-Instructor: EDIT, email: EDIT, slack: EDIT
+Instructor: Kassie Bradshaw, email: kassie.bradshaw@codefellows.com, slack: Kassie Bradshaw
+TA: Ben Arno
 
 **[Link to Canvas Assignments](https://canvas.instructure.com/courses/EDIT)**
 
