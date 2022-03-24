@@ -1,55 +1,48 @@
-'use strict'
-
-//////////////////
-// define the variable named "name" and set the value to the user input of the prompt
 function yourName() {
-    let name;
-        name = prompt('What is your name?');
-        console.log(name);
-    return document.write(name);
+  let name = prompt("What is your name?");
+  document.write("Nice to meet you, " + name);
 }
 
-function guessANumber() {
-    let answer;
+function guessNumber() {
+  let answer;
+  let guesses = 0;
 
-    do {
-        answer = prompt('Guess a number between 1-10');
-        if (answer != 7) {
-            alert('try again!')
-        } else {
-            alert('you are correct!');
-        }
+  do {
+    guesses++;
+    answer = prompt("Guess a number between 1 and 10");
+  } while (parseInt(answer) !== 7)
 
-    } while (answer != 7)
+  if (parseInt(answer) === 7) {
+    document.write("It took you " + guesses + " times to guess my number")
+  }
+
 }
 
-function timeOfDay() {
-    let time = prompt('What time is it?'); // 15;
-    let message = '';
+function rating() {
+  let output = '';
+  let rating = prompt("Scale of 1-5 how happy are you?");
 
-    if (time <= 11) {
-        message = 'Good Morning!';
-    } else if (time <= 18) {
-        message = 'Good Afternoon!';
+  for (let i = 0; i < rating; i++) {
+    output += "<img src='images/star.png' />";
+  }
 
-    } else if (time <= 24) {
-        message = "Good Evening!";
-    } else {
-        message = "Time does not exist!";
-    }
+  document.write(output);
 
-    return message;
 }
 
-function displayRating() {
+// rating = 3
+// output = ''
+// i = 0
+// output = '<img>'
 
-    let output = '';
-    let rating = prompt('scale of 1-5, how many stars?');
-    for(let i = 0; i < rating; i++){
-        output += "<img class='star' src='images/star.png'/>";
-    }
+// i = 1
+// output = '<img>' + '<img>'
+// i = 2
 
-    return document.write(output);
-}
+// output = '<img><img>' = '<img>'
+// i = 3
 
-guessANumber();
+
+// Mac:  cmd + /
+// PC:   control + /
+// De-Indent: shift + tab
