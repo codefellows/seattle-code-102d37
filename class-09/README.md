@@ -17,6 +17,16 @@
 - Lab:09 Career Coaching
   - Linked-In Setup
   - Resume Prep
+- Final Exam
+  - Some good resources:
+    - JS Assignment: https://www.w3schools.com/js/js_assignment.asp
+    - JS Functions: https://www.w3schools.com/js/js_functions.asp
+    - JS Looping: https://www.w3schools.com/js/js_loop_for.asp
+    - JS Conditions: https://www.w3schools.com/js/js_if_else.asp
+    - HTML Tags: https://www.w3schools.com/tags/default.asp
+    - CSS Selectors: https://www.w3schools.com/cssref/css_selectors.asp
+    - GIT Practice: https://www.katacoda.com/courses/git
+    
 
 ## New Vocabulary
 
